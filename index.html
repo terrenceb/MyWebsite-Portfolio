@@ -10,18 +10,21 @@
 
     <title>Portfolio - Terrence Butler</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS Creative - Start Bootstrap Theme -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
+
+      <link href="css/agency.css" rel="stylesheet">
 
     <!-- Some of my added styling -->
     <link href="css/personalizedStylings.css" rel="stylesheet">
@@ -31,51 +34,429 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#">Terrence Butler</a> <!-- Default href #page-top-->
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: goldenrod;">Terrence Butler</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="https://github.com/terrenceb"> <i class="fa fa-github"></i> Github</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/terrence-butler-6a7a1981/"><i class="fa fa-linkedin"></i> LinkedIn</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="https://www.freecodecamp.org/terrenceb"><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#"><i class="fa fa-bars"></i> Resume</a>
-            </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#page-top" style="color: goldenrod !important;">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="https://github.com/terrenceb"> <i class="fa fa-github"></i> Github</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/terrence-butler-6a7a1981/"><i class="fa fa-linkedin"></i> LinkedIn</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="https://www.freecodecamp.org/terrenceb"><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="Resume/TerrenceButlerResume.pdf"><i class="fa fa-bars"></i> Resume</a>
+              </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Header -->
     <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <img class="prof-img" src="img\profile.jpg" alt="Profile Picture">
-          <div class="intro-lead-in"><br>Terrence Butler</div>
-          <div class="intro-heading">University of Georgia
-            <div class="intro-heading2">B.S. Computer Science</div>
-          </div>
-         <!-- <a class="fa fa-angle-double-down fa-3x text-primary js-scroll-trigger" href="#aboutMe"></a>-->
+      <div class="header-content">
+        <div class="header-content-inner">
+            <img class="prof-img" src="img\profile.jpg" alt="Profile Picture">
+            <h1 id="homeHeading">Terrence Butler</h1>
+          <hr style="border-color: goldenrod;">
+          <p style="font-size: 25px;">University of Georgia <br> B.S. Computer Science</p>
+            <a style="text-decoration: none; color:goldenrod;" class="fa fa-angle-double-down fa-3x js-scroll-trigger" data-toggle="tooltip" title="Scroll Down" href="#about"></a>
         </div>
       </div>
     </header>
 
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">About Me!</h2>
+            <hr class="light">
+            <p class="text-faded" style="font-size: 20px;">I am a recent graduate from the University of Georgia.
+                I obtained a Bachelors of Science in Computer Science emphasizing in Internet and Information Technology.
+                I enjoy developing software using front end and back end languages. Application Development is a passion of
+                mine because it allows me to come up with creative solutions for problems while constantly
+                challenging me to learn more.
+                <br>
+            </p>
 
+              <br><h2 class="section-heading text-white">Education</h2>
+              <hr class="light">
+              <p class="text-faded" style="font-size: 20px;">
+                  <b>University of Georgia</b> - Athens, Ga <br> Bachelor of Science in Computer Science - August 2017
+                  <br><br> <b>South Cobb High School</b> - Austell, Ga <br> Academy of Research and Medical Sciences
+              </p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Skillset</h2>
+            <hr class="primary" style="border-color:goldenrod !important;">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-code sr-icons" style="color:goldenrod;"></i>
+              <h3>Languages</h3>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x" style="margin-bottom: 15px;">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 30px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 60%;">JAVA</i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x" style="margin-bottom: 15px;">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 60%;"><b>C++</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x" style="margin-bottom: 15px;">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 30px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>Javascript</b></i>
+                </span><br>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>MySQL</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>HTML5</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 60%;">PHP</i>
+                </span>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <i class="fa fa-4x fa-code-fork sr-icons" style="color: goldenrod;"></i>
+              <h3>Development Tools</h3>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x" style="margin-bottom: 15px;">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 30px;"></i>
+                    <i class="fa fa-stack-1x" style="font-size: 40%;"><b>IntelliJ</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x" style="margin-bottom: 15px;">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>Eclipse</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x" style="margin-bottom: 15px;">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 30px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>Webstorm</b></i>
+                </span><br>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>Github</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>BootStrap</b></i>
+                </span>
+
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                    <i class="fa fa-stack-1x" style="font-size: 40%;"><b>Emacs/Vi</b></i>
+                </span>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box">
+              <i class="col-lg-5 col-md-6 fa fa-4x fa-terminal sr-icons" style="color: goldenrod;"></i>
+              <h3>Concepts</h3>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x" style="margin-bottom: 15px;">
+                    <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 30px;"></i>
+                    <i class="fa fa-stack-1x" style="font-size: 40%;"><b>Agile</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x" style="margin-bottom: 15px;">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>Waterfall</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x" style="margin-bottom: 15px;">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 30px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>TDD</b></i>
+                </span><br>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>BDD</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                        <i class="fa fa-stack-1x" style="font-size: 40%;"><b>Design Pat.</b></i>
+                </span>
+                <span class="col-lg-5 col-md-6 fa-stack fa-3x">
+                        <i class="fa fa-square fa-stack-2x  sr-icons" style="color: transparent; border: 5px solid grey; border-radius: 20px;"></i>
+                    <i class="fa fa-stack-1x" style="font-size: 40%;"><b>REST</b></i>
+                </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+
+        <div class="call-to-action bg-primary">
+            <div class="container text-center">
+                <h2>View My Resume for Recent Projects</h2>
+                <a class="btn btn-default btn-xl sr-button" href="Resume/TerrenceButlerResume.pdf">View Now!</a>
+            </div>
+        </div>
+        <!--<div class="container-fluid">
+        <div class="row no-gutter popup-gallery">
+          <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+
+                    <div id="modalm" class="modal fade" role="dialog">
+                        <div class="modal-dialog"></div>
+
+                    </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    Category
+                  </div>
+                  <div class="project-name">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>-->
+    </section>
+
+    <section class="bg-dark" id="Experiences">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin-bottom: 10px;">
+                    <h2 class="section-heading " style="color:goldenrod;">What have I been up to?</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row" style="color: white;">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image" style="background: transparent;">
+                                <img class="rounded-circle img-fluid" style="height: 100%; width:100%; " src="../newSiteDesign/img/logos/ugalogo.png" alt="">
+                            </div>
+                            <div class="timeline-panel" style="background: transparent;">
+                                <div class="timeline-heading">
+                                    <h4 style="text-align: left;">2015-2017</h4>
+                                    <h4 class="subheading " style="text-align: left; color:goldenrod;">University of Georgia</h4>
+                                    <h5 style="font-size: 15px; text-align: left;">Digital Lab Assistant</h5>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                    <ul>
+                                        <li style="text-align: left; ">Monitored lab technology usage for Open Lab and troubleshot lab equipment</li>
+                                        <li style="text-align: left; ">Maintain Supply Management and Distribution for Grady College employees </li>
+                                        <li style="text-align: left; ">Assisted Dean's office with phone monitoring and office errands</li>
+                                    </ul>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style="background: transparent;">
+                                <img class="rounded-circle img-fluid" src="../newSiteDesign/img/logos/globapaymentsimg.jpeg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 style="text-align: left;">Summer 2016</h4>
+                                    <h4 class="subheading " style="text-align: left; color:goldenrod; ">Global Payments</h4>
+                                    <h5 style="font-size: 15px; text-align: left;">Desktop Support Engineer Intern</h5>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                    <ul>
+                                        <li style="text-align: left; ">Performed administrative duties and Maintenance for Active Direcetory and AirWatch consoles</li>
+                                        <li style="text-align: left; ">Imaged computers using SCCM and MBT software</li>
+                                        <li style="text-align: left; ">Responsible for updating and maintaning in-house Auditing and Asset Management inventory</li>
+                                        <li style="text-align: left; ">Aided with company-wide laptop encryption software upgrade</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image" style="background: transparent;">
+                                <img class="rounded-circle img-fluid" style="height: 100%; width:100%; " src="../newSiteDesign/img/logos/ugalogo.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 style="text-align: left;">2013-2014</h4>
+                                    <h4 class="subheading " style="text-align: left; color:goldenrod;">University of Georgia</h4>
+                                    <h5 style="font-size: 15px; text-align: left;">IT Support Staff</h5>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                    <ul>
+                                        <li style="text-align: left; ">Maaintained database for pharmacy student resources</li>
+                                        <li style="text-align: left; ">Maintained Resource Center technology</li>
+                                        <li style="text-align: left; ">Facilitated student help desk for mobile device and resource center technology issues</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/logos/repubnatdistributing.jpg" alt="RND">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 style="text-align: left;">Summer 2012</h4>
+                                    <h4 class="subheading " style="text-align: left; color:goldenrod;">Republic National Distribution Company</h4>
+                                    <h5 style="font-size: 15px; text-align: left;">IT Network Intern</h5>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                    <ul>
+                                        <li style="text-align: left; ">Reconfigured and Rewired network systems</li>
+                                        <li style="text-align: left; ">Enhance Routing/Switching Setups</li>
+                                        <li style="text-align: left; ">Assemble Routers</li>
+                                    </ul>
+
+                                    </p>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="timeline-inverted">
+                            <i class="bg-dark timeline-image fa fa-3x fa-codepen" style="font-size: 8vw; display: flex; justify-content: center; align-items: center;"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading" style="color: black;">Contact Me</h2>
+            <hr class="primary">
+            <p>I can be contacted through LinkedIn or directly through my email.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+              <a href="https://www.linkedin.com/in/terrence-butler-6a7a1981/"><i class="fa fa-3x fa-linkedin-square" style="color: midnightblue;"></i></a>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+            <p>
+              <a href="mailto:tbbutle@uga.edu" style="color:black;">Email me!</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div style="margin: 0 auto;" class="col-md-6">
+                    <span class="copyright">Copyright &copy; Terrence Butler 2017. Protected under <a href="https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE">MIT License.</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
@@ -83,13 +464,12 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/creative.min.js"></script>
+
 
   </body>
 
