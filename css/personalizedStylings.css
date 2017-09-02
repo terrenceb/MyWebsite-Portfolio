@@ -6,6 +6,15 @@
     border-radius: 200px;
 }
 
+.stopTransition{
+
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    w3-animate-zoom: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
 /* Image Overlay */
 
 
